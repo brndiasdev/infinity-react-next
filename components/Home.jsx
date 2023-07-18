@@ -7,20 +7,20 @@ const Home = () => {
 				<h1 className='heading'>Infinity Quadros</h1>
 				<h1 className='orange_gradient heading'>Artes com IA</h1>
 				<br />
-				<h2 className='heading_text'>
+				<h2 className='desc text-center'>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
 					quaerat.
 				</h2>
-				<h2 className='heading_text'>
+				<h2 className='desc text-center '>
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident,
 					quaerat.
 				</h2>
 			</div>
 			<div className='btn_container'>
 				<button
-					className='black_btn'
+					className='cyan_btn'
 					onClick={() => {}}>
-					Peça Já
+					Peça Já o Seu!
 				</button>
 			</div>
 		</div>

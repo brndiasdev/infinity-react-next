@@ -77,6 +77,10 @@
 
 .heading_div {
 	width: 100%;
+	/* height: 80vh; */
+	@media screen and(max-width: 920px) {
+		max-height: 50vh;
+	}
 }
 .home_container {
 	width: 100%;
@@ -84,6 +88,7 @@
 
 .btn_container {
 	margin: 30px;
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 }
@@ -103,6 +108,13 @@
 	@apply flex items-center justify-center rounded-full border border-purple-800 bg-gradient-to-r from-cyan-500 to-purple-600 px-5 py-1.5 text-center font-inter text-lg text-white transition-all hover:bg-white hover:text-black;
 }
 
+.cyan_btn {
+	@apply flex items-center justify-center rounded-full border border-purple-800 bg-gradient-to-r from-cyan-400 to-purple-600 px-5 py-1.5 text-center font-inter text-lg text-white transition-all hover:bg-white hover:text-black;
+}
+.purple_btn {
+	@apply flex items-center justify-center rounded-full border border-purple-800 bg-gradient-to-r from-purple-600 to-pink-400 px-5 py-1.5 text-center font-inter text-lg text-white transition-all hover:bg-white hover:text-black;
+}
+
 .outline_btn {
 	@apply flex items-center justify-center rounded-full border border-purple-800 bg-gradient-to-r from-purple-500 to-pink-300 px-5 py-1.5 text-center font-inter text-sm text-black transition-all hover:bg-purple-800 hover:text-white;
 }
@@ -111,10 +123,20 @@
 	@apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
 }
 
+.sub_text {
+	@apply mt-5 text-5xl font-bold leading-[1.15] text-black sm:text-4xl;
+}
+
 .orange_gradient {
 	background: linear-gradient(to right, #79d8f7, #8a75f9, #e63892);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+.cyan_gradient {
+	@apply bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent;
+}
+.purple_gradient {
+	@apply bg-gradient-to-r from-purple-500 to-pink-400 bg-clip-text text-transparent;
 }
 
 .green_gradient {
@@ -126,7 +148,7 @@
 }
 
 .desc {
-	@apply mt-5 max-w-2xl text-lg text-gray-600 sm:text-xl;
+	@apply mt-5 text-lg text-gray-600 sm:text-xl;
 }
 
 .search_input {
@@ -204,3 +226,33 @@
 .heading_text {
 	@apply font-extrabold text-center;
 }
+
+/* About Component */
+
+.about_div {
+	@apply lg:w-1/2;
+}
+
+.about_container {
+	@apply lg:flex mt-8;
+}
+
+/* Work Component*/
+
+.work_info {
+	@apply lg:w-1/4 h-auto lg:h-auto bg-white p-4 flex flex-col flex-nowrap lg:flex-wrap justify-center items-center rounded-3xl fill-white m-4;
+}
+
+.work_h2 {
+	@apply mt-6 font-bold mb-2;
+}
+
+.work_p {
+	@apply flex-1 flex items-center font-semibold;
+}
+
+.work_logo {
+	@apply flex justify-center;
+}
+
+/* Footer Component */
