@@ -14,6 +14,9 @@ module.exports = {
 			colors: {
 				"primary-orange": "#FF5722",
 			},
+			zIndex: {
+				100: 100,
+			},
 		},
 	},
 	plugins: [],

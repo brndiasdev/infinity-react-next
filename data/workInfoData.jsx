@@ -1,6 +1,6 @@
-import pickArts from "../public/assets/icons/pickArts.png";
-import pickMold from "../public/assets/icons/pickMold.png";
-import fastDelivery from "../public/assets/icons/fastDelivery.png";
+import pickArts from "@public/assets/images/3.png";
+import pickMold from "@public/assets/images/2.svg";
+import fastDelivery from "@public/assets/images/1.svg";
 
 export const workHeaderData = [
 	{

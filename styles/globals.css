@@ -240,7 +240,7 @@
 /* Work Component*/
 
 .work_info {
-	@apply lg:w-1/4 h-auto lg:h-auto bg-white p-4 flex flex-col flex-nowrap lg:flex-wrap justify-center items-center rounded-3xl fill-white m-4;
+	@apply lg:w-1/4 h-auto lg:h-auto p-4 flex flex-col flex-nowrap lg:flex-wrap justify-center items-center rounded-3xl fill-white m-4;
 }
 
 .work_h2 {
