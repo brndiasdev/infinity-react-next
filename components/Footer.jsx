@@ -36,7 +36,7 @@ export default function Footer() {
 							<ul key={title}>
 								<Typography
 									variant='small'
-									color='aliceblue'
+									color='#000000'
 									className='mb-3 font-bold '
 								>
 									{title}

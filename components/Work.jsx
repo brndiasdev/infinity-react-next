@@ -18,7 +18,10 @@ const Work = () => {
 			<div className='work_div mt-8'>
 				{workHeaderData.map((data) => (
 					<>
-						<h2 className='orange_gradient desc text-center font-extrabold text-4xl'>
+						<h2
+							key={data.id}
+							className='orange_gradient desc text-center font-extrabold text-4xl'
+						>
 							{data.header}
 						</h2>
 						<h1 className='sub_text text-center'>{data.subheader}</h1>
